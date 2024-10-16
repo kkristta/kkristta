@@ -1,0 +1,5 @@
+import math
+x = int (input("ievadiet x vērtību :"))
+y = int (input("ievadiet y vērtību :"))
+b = 5*x**3 - x**2 + 7*x - 6
+print ("atbilde uz b ir", b)
