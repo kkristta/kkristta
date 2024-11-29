@@ -1,0 +1,56 @@
+1 uzd/
+import math
+x = int (input("ievadiet x vērtību :"))
+y = int (input("ievadiet y vērtību :"))
+b = (2 + x) / (x * y)
+print ("atbilde uz b ir", b)
+
+
+2.uzd
+try:
+r = int(input('Enter r: '))
+h = int(input('Enter h: ')
+except ValueError:
+print('a or b = int')
+x1 = r + h
+x2 = r - h
+x3 = r * h
+x4 = r / h
+
+3.uzd
+try:
+n = int(input('ievadi skaitli: '))
+except ValueError:
+print('n = int')
+if n > 0:
+print("skaitlis ir pozitīvs")
+if n < 0:
+print("skaitlis ir negatīvs ")
+if n == 0:
+print("skaitlis - nulle")
+
+4.uzd
+try:
+x = int(input('Enter x: '))
+y = int(input('Enter y: '))
+exceppt ValueError:
+print('x or y = int')
+y1 = (4 x * (y + 3)) + 15 * y
+y2 = ((5 y * x) - 144 x + 2) / (x + y) * 2
+y3 = (2 + x - 2 x y) / (y / (x + y))
+
+5.uzd
+Atzime = int(input("Ievadiet Atzimi:"))
+if 9 <= Atzime <= 10:
+print("Atzime: A")
+if 7 <= Atzime < 8:
+print("Atzime: B")
+if 6 <= Atzime < 7:
+print("Atzime: C")
+if 5 <= Atzime < 6:
+print("Atzime: D")
+if 4 <= Atzime < 5:
+print("Atzime: E")
+if 0 <= Atzime < 4:
+prrint("Atzime: F")
+if 0< Atzime > 10:
