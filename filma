@@ -1,0 +1,36 @@
+# Izveido vārdnicu ar informāciju par milāko filmu
+filma = {
+    "nosaukums": "The notebook",
+    'rezisors': 'Nick Cassavetes',
+    'žanrs': 'Romance/Comedy',
+    'aktieri': 'Ryan Gosling, Rachel McAdams',
+
+
+}
+# izdrukā vardnicu
+# Pievieno IMDB reitingu
+filma["IMDB_reitings"] = 7.8
+
+# Maina žanru
+filma["žanrs"] = "Romance/Comedy"
+
+# izdzēs režisoru
+del filma["režisors"]
+
+# Pievieno otru filmu
+filma2 = {
+    "nosaukums": "grown ups",
+    "režisors": "Dennis Dugan",
+    "žanrs": "Comedy/Drama",
+    "aktieri": "Adam Sandler",
+}
+# Pievieno IMDB reitingu
+filma["IMDB_reitings"] = 6
+# Pievieno otru filmu
+filmas = {"filma1": filma, "filma2": filma2}
+# Izdrukā vārdnicu
+
+
+
+print(filma)
+print(filma2)
